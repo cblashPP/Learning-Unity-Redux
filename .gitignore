@@ -1,0 +1,6 @@
+#ignore the following filess andd folders
+Library/
+Logs/
+Assembly-CSharp.csproj
+Prototype 1.sln
+UserSettings/
