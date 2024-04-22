@@ -4,21 +4,17 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    
-    private float speed = 21.0f;
-    private float turnSpeed = 45.0f;
+    // Declare movement speeds and input variables
+    private float speed = 15.0f;
+    private float turnSpeed = 90.0f;
     private float horizontalInput;
     private float forwardInput;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
+        // Read in Keyboard inputs
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
         // Moves the vehicle forward based on Horizontal button assignment
