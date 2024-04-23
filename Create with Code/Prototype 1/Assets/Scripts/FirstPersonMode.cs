@@ -1,16 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class MoveTraffic : MonoBehaviour
+public class FirstPersonMode : MonoBehaviour
 {
-    // Declare player and main camera
     public GameObject player;
     public GameObject altCamera;
-    // Declare movement speed
-    private float speed = 5.0f;
-
     private bool cameraInput;
+
+    // Define relative camera position
+    private Vector3 offset = new Vector3 (0, 2, 0.6f);
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +18,10 @@ public class MoveTraffic : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         cameraInput = Input.GetButton("Fire1");
-        transform.Translate (Vector3.forward * speed * Time.deltaTime);
+        altCamera.SetActive(true);
+
     }
 }
