@@ -21,7 +21,7 @@ public class FirstPersonMode : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-       // Update camera position relative to player position
+        // Update camera position relative to player position
         transform.position = player.transform.position + offset;
     }
 }

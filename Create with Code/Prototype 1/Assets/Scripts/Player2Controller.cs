@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Player2Controller : MonoBehaviour
 {
-    // Declare external Cameras
+   // Declare external Cameras
     public GameObject mainCamera;
     public GameObject altCamera;
     // Define movement speeds
@@ -30,9 +30,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Read in Keyboard inputs
-        cameraInput = Input.GetButtonUp("Fire1");
-        horizontalInput = Input.GetAxis("Horizontal");
-        forwardInput = Input.GetAxis("Vertical");
+        cameraInput = Input.GetButtonUp("Fire1P2");
+        horizontalInput = Input.GetAxis("HorizontalP2");
+        forwardInput = Input.GetAxis("VerticalP2");
         // check if the camera button was pressed and released, then change mode accordingly
         if (cameraInput)
             // Call to helper method to change cameras
