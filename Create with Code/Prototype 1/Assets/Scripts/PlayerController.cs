@@ -17,10 +17,14 @@ public class PlayerController : MonoBehaviour
     // Declare Camera mode
     // False is mainCamera on, True is altCamera on
     private bool cameraMode;
+    
+    //************Variables to accompany camera change that involves Cooldowns
+    //            See comments in Update method 
     // Declare change detection
-    private bool modeChanging = false;
+    /*
+    private bool changeCooldown = false;
     // Declare buffer time counter for camera changing
-    private float changeBuffer = 0;
+    private float changeBuffer = 0; */
 
     void Start()
     {
@@ -34,40 +38,46 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Read in Keyboard inputs
-        cameraInput = Input.GetButton("Fire1");
+        cameraInput = Input.GetButtonUp("Fire1");
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
-
-        // Check camera change input and change camera mode according to input
+        // check if the camera button was pressed and released, then change mode accordingly
         if (cameraInput)
-        {   
-            if (!modeChanging)
-            {
-                cameraChange(cameraMode);
-                modeChanging = true;
-            }
-            else
-            {
-                changeBuffer++;
-                if (changeBuffer > 200)
-                {
-                    modeChanging = false;
-                    changeBuffer = 0;
-                }
-                    
-            }
-            
-        }
-
+            // Call to helper method to change cameras
+            cameraChange(cameraMode);
         // Moves the vehicle forward based on Horizontal button assignment
         transform.Translate (Vector3.forward * Time.deltaTime * speed * forwardInput);
         // Turns the vehicle based on Vertical button assignment
         transform.Rotate (Vector3.up, Time.deltaTime * turnSpeed * horizontalInput);
+
+        //***************** Old version of camera mode change involving cooldowns, to make sure that the camera only changes once.
+        //                  Unnecessary if we can read the negative edge of an input
+        // Check camera change input and change camera mode according to input
+        /* if (cameraInput)
+        {   
+            if (!changeCooldown)
+            {
+                cameraChange(cameraMode);
+                changeCooldown = true;
+            }
+            
+        }
+        if (changeCooldown)
+        {
+            changeBuffer++;
+            if (changeBuffer > 120)
+            {
+                changeCooldown = false;
+                changeBuffer = 0;
+            }
+                
+        }*/
+   
     }
 
     void cameraChange (bool mode)
     {
-        // Check what camera mode is active reverse camera settings
+        // Check what camera mode is active reverse camera settings accordingly
         if (!mode)
         {
             altCamera.SetActive(true);
