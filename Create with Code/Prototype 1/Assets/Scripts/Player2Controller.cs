@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.UI;
 using UnityEngine;
 
 public class Player2Controller : MonoBehaviour
 {
-   // Declare external Cameras
+    
+    // Declare external Cameras
     public GameObject mainCamera;
     public GameObject altCamera;
     // Define movement speeds
@@ -20,6 +22,7 @@ public class Player2Controller : MonoBehaviour
 
     void Start()
     {
+        
         // initialize cameras and camera mode
         altCamera.SetActive(false);
         mainCamera.SetActive(true);
