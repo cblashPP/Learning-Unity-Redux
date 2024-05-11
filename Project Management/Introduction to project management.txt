@@ -1,0 +1,46 @@
+GAME DEVELOPMENT STAGES
+
+Pre-production
+    Planning ()
+    Prototyping
+    Pipeline Setup
+    Initial Designs
+Production
+    Asset creation
+    Final 2D images
+    Final 3D Models
+    Audio
+    Lighting
+    User Experience
+Post-production	
+    Quality Assurance
+    editing
+    Debug
+    Polishing
+Operations
+    Sales
+    Monetization
+    Updates
+    Maintenance
+
+***************************************************************************
+
+DESIGN DOCUMENT
+    Bible of Design specifications
+    
+    - Identify purpose, audience and project goal
+    - ID project steps with a project Planning
+        - Project Timeline with deliverables and due Updates
+    - Assigns roles and task priorities
+
+***************************************************************************
+
+TIME MANAGEMENT
+    Impossible to complete the project without it
+    
+
+
+
+
+
+
