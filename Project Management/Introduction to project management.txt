@@ -36,7 +36,16 @@ DESIGN DOCUMENT
 ***************************************************************************
 
 TIME MANAGEMENT
-    Impossible to complete the project without it
+    Project runs indefinitely without it
+    
+    - Each phase of the project needs a time scope
+    - Review your plan daily and give daily reports 
+        - in a team setting these reports are given to the manager in stand-ups
+    - Have contigency plans for hiccups, update priorities accordingly
+    - Identify which project planning and management tools suite your project, and use them consistently
+
+
+***************************************************************************
     
 
 
