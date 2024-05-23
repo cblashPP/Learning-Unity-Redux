@@ -1,3 +1,5 @@
+
+***************************************************************************
 GAME DEVELOPMENT STAGES
 
 Pre-production
@@ -46,10 +48,44 @@ TIME MANAGEMENT
 
 ***************************************************************************
 
+Respect and Professionalism
+
+    Keep an air of Professionalism when working projects with others
+
+    - Be punctual
+    - Promptly reply to collaborators, peers, and clients
+    - Listen to others' opinions and contributions
+    - Actively engage in collaborative work
+
+***************************************************************************
+***************************************************************************
+***************************************************************************
+***************************************************************************
+
+
+DESIGN DOCUMENTS AND PROJECT PLANS
+
+***************************************************************************
+Types of design documents
+
+- Game (or Experience) Design Documents (GDDs)
+- Target user personas
+- Project charters
+- Technical specifications
+
+***************************************************************************
+
+Design Documents
+
+    They include
+    - High level overviews
+    - Requirements/standards for particular pipelines
+    - Design specs for particular features
+
+    The high level design doc includes: 
+    - The goal and purpose of the project
+    - Intended user and audience
+    - Key features of the project
+    - Final form of delivery, platform
+    - Diagrams, flow charts,  sketches, inspirational/reference images
     
-
-
-
-
-
-
