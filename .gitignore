@@ -1,7 +1,9 @@
 #ignore the following filess andd folders
+.gitignore
 Library/
 Logs/
 Assembly-CSharp.csproj
 Prototype 1.sln
 UserSettings/
 Temp/
+.vscode/

@@ -88,4 +88,53 @@ Design Documents
     - Key features of the project
     - Final form of delivery, platform
     - Diagrams, flow charts,  sketches, inspirational/reference images
+
+***************************************************************************
+
+Project Charters 
+
+- used in pre-production and production stages
+- Formal document describing the whole project
+    includes 
+    - objectives
+    - how it will be carried out 
+    - who are the stakeholders
+    - Reasons for the project
+    - Risks assessment
+    - Benefits of the document
+    - overall budget
+
+***************************************************************************
+
+Additional Documents
+
+Might be necessary to make more docs in pre-production stage 
+includes
+- Technical documents
+    Documents that specify architecture/functionality of technical parts of the project
+- Meeting Notes
+    Minutes for any meetings, recorded for future reference
+- Proposal/pitch document  
+    best for present the idea of the game to investors or companys to secure funding.
+
+
+
+***************************************************************************
+***************************************************************************
+***************************************************************************
+
+
+MANAGING PROJECTS AND TRACKING PROGRESS
+
+***************************************************************************
+
+A project plan must also be created in pre-production
+    - Not having a project plan tends to result in scope creep
+        - too many new ideas and features added to a project resulting in lateness
+    - Combines elements in the design doc and the project charter
+        Sets specific tasks and delivary dates
+    - The project plan is iterated upon typically by the producer throughout the project
+
+    A Project tracker may coincide with the project plan or be separate
+        - Measures progress on the project against defined tasks and deliverables
     

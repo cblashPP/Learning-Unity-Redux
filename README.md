@@ -6,3 +6,4 @@ Starting from scratch on the Junior Programmer Pathway from Unity's official Uni
 https://learn.unity.com/mission/programming-basics?pathwayId=5f7e17e1edbc2a5ec21a20af
 
 Unity Version is 2022.3.22f1
+Download: https://unity.com/releases/editor/whats-new/2022.3.22
