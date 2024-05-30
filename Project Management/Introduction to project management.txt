@@ -137,4 +137,60 @@ A project plan must also be created in pre-production
 
     A Project tracker may coincide with the project plan or be separate
         - Measures progress on the project against defined tasks and deliverables
-    
+Tips for tracking projects individually and in a team
+    - Identify necessary project steps
+    - Identify and assign specific roles and responsibilities
+    - Create a timeline with specific deliverable and due dates
+    - Identify common problems and issues in management
+        - Scope creep
+        - Overly Ambitious design plans
+        - Tight time constraints
+    - Determine when the project is due
+    - Set due dates for each smaller part of the project that will build the overall project
+    - Create reasonable time frames for each part of the project
+    - Designate task owners for each task on the Listen
+
+***************************************************************************
+
+Creating projects for clients
+
+Additional considerations when working for a clients
+
+- Identify clear project roles
+    - identify person who acts as liaison between client and the group
+    - key stakeholders for different elements of the project
+- Understand and clarify client expectations
+- Plan to support clear communication with the client
+    - Know the ways you will communicate with the client
+    - Identify any online collaborative tools needed to review the project with the client
+
+
+
+***************************************************************************
+***************************************************************************
+***************************************************************************
+
+TOOLS TO SUPPORT YOUR PROJECT MANAGEMENT AND TRACKING
+
+Example software
+
+    *Trello - https://trello.com/
+    Favro - https://www.favro.com/
+    Airtable - https://airtable.com/
+    Monday.com - https://monday.com/
+    *Google Apps - https://workspace.google.com/
+    Jira - https://www.atlassian.com/software/jira
+    *GitHub - https://github.com/
+
+    * Seems like it'll be in my rotation
+
+
+***************************************************************************
+***************************************************************************
+***************************************************************************
+
+PREPARING TO PUBLISH
+
+***************************************************************************
+
+
